@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <title>Background Changer</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="header">BACKGROUND CHANGER</h1>
+        <div class="palette">
+            <div class="row">
+                <div onclick="body.style.backgroundColor='#FFEA20'" id="neon-yellow" class="colors"></div>
+                <div onclick="body.style.backgroundColor='#FB2376'" id="neon-pink" class="colors"></div>
+                <div onclick="body.style.backgroundColor='#2192FF'" id="neon-blue" class="colors"></div>
+                <div onclick="body.style.backgroundColor='#FF1700'" id="neon-red" class="colors"></div>
+                <div onclick="body.style.backgroundColor='#5800FF'" id="neon-purple" class="colors"></div>
+            </div><br>
+            <div class="row">
+                <div onclick="body.style.backgroundColor='#B5F1CC'" id="pastel-green" class="colors"></div>
+                <div onclick="body.style.backgroundColor='#fdfd8d'" id="pastel-yellow" class="colors"></div>
+                <div onclick="body.style.backgroundColor='#f8ede3'" id="pastel-beige" class="colors"></div>
+                <div onclick="body.style.backgroundColor='#fd8a8a'" id="pastel-red" class="colors"></div>
+                <div onclick="body.style.backgroundColor='#a7727d'" id="pastel-brown" class="colors"></div>
+            </div><br>
+            <div class="row">
+                <div onclick="body.style.backgroundColor='#d36b00'" id="night-orange" class="colors"></div>
+                <div onclick="body.style.backgroundColor='#000000'" id="black" class="colors"></div>
+                <div onclick="body.style.backgroundColor='#345b63'" id="night-green" class="colors"></div>
+                <div onclick="body.style.backgroundColor='#371b58'" id="night-purple" class="colors"></div>
+                <div onclick="body.style.backgroundColor='#13005a'" id="night-navyBlue" class="colors"></div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+    <script>
+
+        let black = document.querySelector("#black");
+        black.addEventListener('click',function(){
+            let baslik = document.querySelector("#header");
+            baslik.style.color='#fefefe'
+        })
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    background-color: #86A3B8;
+}
+
+.container{
+    text-align: center;
+}
+
+h1{
+    border-bottom: 1px solid #fefefe;
+    padding: 40px;
+}
+
+.palette{
+    padding-top: 20%;
+}
+
+.colors{
+    border: 1px solid #18181b;
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.row{
+    justify-content: center;
+    display: flex;
+}
+
+/*neon*/
+#neon-yellow{
+    background-color: #ffea20;
+}
+
+#neon-pink{
+    background-color: #fb2376;
+}
+
+#neon-blue{
+    background-color: #2192ff;
+}
+
+#neon-purple{
+    background-color: #5800ff;
+}
+
+#neon-red{
+    background-color: #ff1700;
+}
+
+/*pastel*/
+#pastel-green{
+    background-color: #B5F1CC;
+}
+
+#pastel-brown{
+    background-color: #a7727d;
+}
+
+#pastel-yellow{
+    background-color: #fdfd8d;
+}
+
+#pastel-red{
+    background-color: #fd8a8a;
+}
+
+#pastel-beige{
+    background-color: #f8ede3;
+}
+
+/*night*/
+#night-navyBlue{
+    background-color: #13005a;
+}
+
+#black{
+    background-color: #000000;
+}
+
+#night-orange{
+    background-color: #d36b00;
+}
+
+#night-purple{
+    background-color: #371b58;
+}
+
+#night-green{
+    background-color: #345b63;
+}
+
