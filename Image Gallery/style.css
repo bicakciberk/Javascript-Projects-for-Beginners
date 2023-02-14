@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body{
+    background-color: #F9F5E7;
+}
+
+.container{
+    text-align: center;
+    margin-top: 5%;
+}
+
+#addButton{
+    background-color: #B5F1CC;
+    padding: 7px;
+    margin-top: 10px;
+    width: 60px;
+    border: 1px solid #FAAB78;
+}
+
+#addButton:focus{
+    background-color: #18181b;
+    color: #B5F1CC; 
+    border: 1px solid #B5F1CC;
+}
+
+section{
+    margin-bottom: 10px;
+}
+
+img{
+    margin-top: 20px;
+    margin-left: 20px;
+}
