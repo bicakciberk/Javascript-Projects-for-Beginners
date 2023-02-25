@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image{
+    height: 80vh;
+    width: 80vw;
+}
+
+.imageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+}
+
+.fas{
+    margin: 5px;
+    cursor: pointer;
+}
+
+.buttons{
+    display: flex;
+    justify-content: end;
+    padding: 30px 60px;
+    align-items: end;
+}
