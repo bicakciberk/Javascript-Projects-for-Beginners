@@ -3,5 +3,5 @@
 ### This is the project I did when I first learned Javascript.
 ### When you choose the color you want from the color palette below, the background of the body becomes that color.
 
-Technologies
+### Technologies
 HTML CSS and Javascript
