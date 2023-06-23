@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+</head>
+
+<body class="flex flex-col justify-center items-center h-screen">
+
+    <div class="container justify-center flex flex-col bg-main w-400 text-white p-5">
+        <div class="screen border-b-2 border-number border-number p-5 m-2">
+            <p id="screen" class="text-end text-2xl">0</p>
+        </div>
+        <div class="main grid grid-cols-4 mt-3">
+            <p class="btn hover:bg-op cursor-pointer bg-number text-center rounded-md m-2 p-3">7</p>
+            <p class="btn hover:bg-op cursor-pointer bg-number text-center rounded-md m-2 p-3">8</p>
+            <p class="btn hover:bg-op cursor-pointer bg-number text-center rounded-md m-2 p-3">9</p>
+            <p class="btn hover:bg-number cursor-pointer bg-op text-center rounded-md m-2 p-3">+</p>
+            <p class="btn hover:bg-op cursor-pointer bg-number text-center rounded-md m-2 p-3">4</p>
+            <p class="btn hover:bg-op cursor-pointer bg-number text-center rounded-md m-2 p-3">5</p>
+            <p class="btn hover:bg-op cursor-pointer bg-number text-center rounded-md m-2 p-3">6</p>
+            <p class="btn hover:bg-number cursor-pointer bg-op text-center rounded-md m-2 p-3">-</p>
+            <p class="btn hover:bg-op cursor-pointer bg-number text-center rounded-md m-2 p-3">1</p>
+            <p class="btn hover:bg-op cursor-pointer bg-number text-center rounded-md m-2 p-3">2</p>
+            <p class="btn hover:bg-op cursor-pointer bg-number text-center rounded-md m-2 p-3">3</p>
+            <p class="btn hover:bg-number cursor-pointer bg-op text-center rounded-md m-2 p-3 ">C</p>
+            <p class="btn hover:bg-op cursor-pointer bg-number text-center rounded-md m-2 p-3">0</p>
+            <p class="btn hover:bg-number cursor-pointer bg-op text-center rounded-md m-2 p-3">*</p>
+            <p class="btn hover:bg-number cursor-pointer bg-op text-center rounded-md m-2 p-3">/</p>
+            <p class="btn hover:bg-number cursor-pointer bg-op text-center rounded-md m-2 p-3">=</p>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="app.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        main: '#202020',
+                        number: '#3B3B3B',
+                        op: '#323232',
+                        white: '#fefefe'
+                    },
+                    spacing: {
+                        '5px': '5px',
+                        '400': '400px',
+                    },
+                    maxWidth: {
+                        '400': '400px',
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
