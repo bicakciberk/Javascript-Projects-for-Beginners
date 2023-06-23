@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="w-screen h-screen bg-section bg-cover flex items-center justify-center flex-col">
+        <h3 class="text-yellow text-5xl font-medium">WEATHER</h3>
+        <input
+            class="mt-20px py-2px px-5px w-216px border-0 bg-yellow text-black placeholder:text-black placeholder:font-medium"
+            id="search" placeholder="SEARCH" type="text">
+        <button class="mt-20px py-2px px-5px w-216px border-0 bg-yellow text-black font-medium active:bg-dark active:text-yellow"
+            id="submit">SUBMIT</button>
+        <div class="container text-center text-white flex flex-col">
+            <h3 class="text-5xl font-medium my-10px mt-20px font-medium" id="temp"></h3>
+            <span class="text-3xl text-yellow my-10px font-medium" id="name"></span>
+            <span class="text-3xl my-10px font-medium" id="weather"></span>
+            <span class="text-3xl my-10px font-medium" id="description"></span>
+        </div>
+    </section>
+
+
+    <script src="app.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        yellow: '#FFA41B',
+                        white: '#FEFEFE',
+                        dark: '#0F0F0F',
+                    },
+                    spacing: {
+                        '2px': '2px',
+                        '5px': '5px',
+                        '10px': '10px',
+                        '20px': '20px',
+                        '216px': '212px'
+                    },
+                    backgroundImage: {
+                        'section': "url('img/weather-bg.png')",
+                    }
+                },
+                screens: {
+                    'laptop-l': { 'max': '1440px' },
+
+                    'laptop-m': { 'max': '1245px' },
+
+                    'tablet': { 'max': '768px' },
+
+                    'mobile-l': { 'max': '425px' },
+
+                    'mobile-m': { 'max': '375px' },
+                }
+
+            }
+        }
+    </script>
+</body>
+
+</html>
