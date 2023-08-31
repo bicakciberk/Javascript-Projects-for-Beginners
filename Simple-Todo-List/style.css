@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body{
+    background-color: #18181b;
+}
+
+.container{
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1{
+    color: white ;
+}
+
+#inputText{
+    height: 30px;
+    width: 200px;
+    outline: none;
+    border-radius: 10px;
+    border: 3px solid orange;
+    font-size: 20px;
+}
+
+#addButton{
+    border: none;
+    font-size: 18px;
+    width: 50px;
+    height: 30px;
+    background-color: #B5F1CC;
+}
+
+#addButton:active{
+    background-color: #18181b;
+    color: #B5F1CC;
+}
+
+#deleteButton{
+    border: none;
+    font-size: 18px;
+    width: 100px;
+    height: 30px;
+    background-color: #FD8A8A;
+}
+
+#deleteButton:active{
+    background-color: #18181b;
+    color: #FD8A8A ;
+}
+
+form{
+    margin-top: 10px;
+}
+
+.paragraf{
+    margin-top: 20px;
+    color: #fefefe;
+    font-size: 20px;
+}
